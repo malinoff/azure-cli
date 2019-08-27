@@ -1,6 +1,6 @@
 FROM python:3.7-alpine3.7 as builder
 
-ARG AZURE_CLI_VERSION=2.0.71
+ARG AZURE_CLI_VERSION=2.0.72
 
 RUN apk add --no-cache \
       build-base linux-headers openssl-dev libffi-dev
